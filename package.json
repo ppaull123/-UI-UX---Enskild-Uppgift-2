@@ -1,0 +1,14 @@
+{
+  "name": "esc-grupparbete",
+  "version": "1.0.0",
+  "description": "Cypress tester för Hacker Escape Rooms",
+  "scripts": {
+    "start": "npx live-server --port=5501",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0",
+    "live-server": "^1.2.2"
+  }
+}
